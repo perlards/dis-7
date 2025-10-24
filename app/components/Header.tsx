@@ -1,0 +1,19 @@
+////looks same but being imported by next link to isnts used in it just lonk href
+import Link from "next/link";
+
+export default function Header(){
+    const linkStyle = "p-1 m-2 text-xl hover:underline";
+
+    return(
+        <nav>
+            <ul>
+                <li>
+                    <Link href={`/`} className={linkStyle}> Home</Link>
+                </li>
+                <li>
+                    <Link href={`/about`}>About</Link>
+                </li>
+            </ul>
+        </nav>
+    )
+}
