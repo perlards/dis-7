@@ -7,7 +7,7 @@ export default function PostPreview({post}:{post:PostProps}) {
                 {post.title}
             </h4>
             <p>
-                {post.updated}
+                {post.upvotes}
             </p>
         </div>
 

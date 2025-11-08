@@ -1,5 +1,4 @@
 export type PostProps = {
-    updated: never;
     id:string;
     title:string;
     content: string;
